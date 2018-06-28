@@ -1,0 +1,6 @@
+<h1 style="text-align: center">Welcome to {{ title }}</h1>
+<div *ngFor="let form of forms" >
+  <button  (click)="goFormDetail(form.id)">{{form.name}}</button> 
+  <br><br>
+</div>
+

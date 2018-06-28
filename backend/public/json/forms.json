@@ -1,0 +1,86 @@
+{
+	"forms": [{
+			"id": 0,
+			"title": "FORM Register",
+			"fields": [{
+					"key": "name",
+					"type": "input",
+					"templateOptions": {
+						"label": "Name",
+						"placeholder": "Name",
+						"description": "",
+						"required": true
+					}
+				},
+				{
+					"key": "Input",
+					"type": "input",
+					"templateOptions": {
+						"label": "Username",
+						"placeholder": "Username",
+						"description": "",
+						"required": true
+					}
+				},
+				{
+					"key": "Password",
+					"type": "input",
+					"templateOptions": {
+						"type": "password",
+						"label": "Password",
+						"placeholder": "password",
+						"description": "",
+						"required": true
+					}
+				}, {
+					"key": "cPassword",
+					"type": "input",
+					"templateOptions": {
+						"type": "password",
+						"label": "Confirm Password",
+						"placeholder": "password",
+						"description": "",
+						"required": true
+					}
+				},
+				{
+					"key": "Input",
+					"type": "input",
+					"templateOptions": {
+						"type": "date",
+						"label": "Age",
+						"placeholder": "age",
+						"description": "",
+						"required": true
+					}
+				}
+			]
+		}, 
+			  {
+			"id": 1,
+			"title": "FORM Login",
+			"fields": [{
+					"key": "Input",
+					"type": "input",
+					"templateOptions": {
+						"label": "Username",
+						"placeholder": "Username",
+						"description": "",
+						"required": true
+					}
+				},
+				{
+					"key": "Password",
+					"type": "input",
+					"templateOptions": {
+						"type": "password",
+						"label": "Password",
+						"placeholder": "password",
+						"description": "",
+						"required": true
+					}
+				}
+			]
+		}
+	]
+}
